@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/dgpays"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/appTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="dgpays"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/appSubtitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Project"
+        android:textColor="@color/black"
+        android:textColorLink="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/appTitleTextView"
+        app:layout_constraintStart_toStartOf="@+id/appTitleTextView"
+        app:layout_constraintTop_toBottomOf="@+id/appTitleTextView" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="Kullanıcı Adı : "
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appSubtitleTextView" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/white"
+        android:hint="Şifre : "
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textColorLink="#000000"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailText" />
+
+    <ImageView
+        android:id="@+id/hidePassword"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="19dp"
+        android:onClick="togglePasswordVisibility"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/passwordText"
+        app:layout_constraintEnd_toEndOf="@+id/passwordText"
+        app:layout_constraintTop_toBottomOf="@+id/emailText"
+        app:srcCompat="@drawable/hide_pasword" />
+
+    <ImageView
+        android:id="@+id/showPassword"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="19dp"
+        android:onClick="togglePasswordVisibility"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/passwordText"
+        app:layout_constraintEnd_toEndOf="@+id/passwordText"
+        app:layout_constraintTop_toTopOf="@+id/passwordText"
+        app:srcCompat="@drawable/show_password" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#000000"
+        android:onClick="signInClicked"
+        android:text="GİRİŞ YAP"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#EA0D0D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordText"></Button>
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#000000"
+        android:onClick="signUpClicked"
+        android:text="KAYIT OL"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#EA0D0D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signInButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

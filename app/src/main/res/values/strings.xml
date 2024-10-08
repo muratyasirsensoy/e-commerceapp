@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">DgPaysProje</string>
+
+    <string-array name="country_list">
+        <item>Türkiye</item>
+        <item>United States</item>
+        <item>United Kingdom</item>
+        <item>Germany</item>
+        <item>France</item>
+        <item>Australia</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Russia</item>
+        <item>Italy</item>
+        <item>China</item>
+        <item>Mexico</item>
+        <item>South Africa</item>
+        <item>Argentina</item>
+        <item>Spain</item>
+        <item>Sweden</item>
+        <item>Switzerland</item>
+        <item>Netherlands</item>
+        <item>Belgium</item>
+        <item>Norway</item>
+        <item>Finland</item>
+        <item>Denmark</item>
+        <item>South Korea</item>
+        <item>New Zealand</item>
+        <item>Singapore</item>
+        <item>Malaysia</item>
+        <item>Indonesia</item>
+        <item>Philippines</item>
+        <item>Thailand</item>
+        <item>Vietnam</item>
+        <item>Saudi Arabia</item>
+        <item>United Arab Emirates</item>
+        <item>Egypt</item>
+        <item>Pakistan</item>
+        <item>Bangladesh</item>
+        <item>Nigeria</item>
+        <item>Kenya</item>
+    </string-array>
+
+    <string-array name="province_list">
+        <item>İstanbul</item>
+        <item>Ankara</item>
+        <item>İzmir</item>
+        <item>Bursa</item>
+        <item>Antalya</item>
+        <item>Adana</item>
+        <item>Konya</item>
+        <item>Kayseri</item>
+        <item>Gaziantep</item>
+        <item>Eskişehir</item>
+    </string-array>
+
+    <string-array name="district_list_istanbul">
+        <item>Beşiktaş</item>
+        <item>Kadıköy</item>
+        <item>Üsküdar</item>
+        <item>Sarıyer</item>
+        <item>Şişli</item>
+        <item>Fatih</item>
+        <item>Bakırköy</item>
+        <item>Bağcılar</item>
+        <item>Başakşehir</item>
+        <item>Avcılar</item>
+    </string-array>
+
+    <string-array name="district_list_ankara">
+        <item>Çankaya</item>
+        <item>Keçiören</item>
+        <item>Altındağ</item>
+        <item>Yenimahalle</item>
+        <item>Mamak</item>
+        <item>Sincan</item>
+        <item>Pursaklar</item>
+        <item>Etimesgut</item>
+        <item>Gölbaşı</item>
+        <item>Polatlı</item>
+    </string-array>
+
+    <string-array name="district_list_izmir">
+        <item>Konak</item>
+        <item>Bornova</item>
+        <item>Buca</item>
+        <item>Karşıyaka</item>
+        <item>Çiğli</item>
+        <item>Gaziemir</item>
+        <item>Narlıdere</item>
+        <item>Balçova</item>
+        <item>Bayraklı</item>
+        <item>Foça</item>
+    </string-array>
+
+    <string-array name="district_list_bursa">
+        <item>Osmangazi</item>
+        <item>Yıldırım</item>
+        <item>Nilüfer</item>
+        <item>İnegöl</item>
+        <item>Gemlik</item>
+        <item>Orhangazi</item>
+        <item>Karacabey</item>
+        <item>Mustafakemalpaşa</item>
+        <item>Kestel</item>
+        <item>Mudanya</item>
+    </string-array>
+
+    <string-array name="neighborhood_list">
+        <item>Levent</item>
+        <item>Etiler</item>
+        <item>Ortaköy</item>
+        <item>Gayrettepe</item>
+        <item>Akatlar</item>
+        <item>Arnavutköy</item>
+        <item>Kuruçeşme</item>
+        <item>Ulus</item>
+        <item>Türkali</item>
+        <item>Cihannüma</item>
+
+        <item>Moda</item>
+        <item>Suadiye</item>
+        <item>Bostancı</item>
+        <item>Fenerbahçe</item>
+        <item>Göztepe</item>
+        <item>Kozyatağı</item>
+        <item>Acıbadem</item>
+        <item>Feneryolu</item>
+        <item>Erenköy</item>
+        <item>Hasanpaşa</item>
+
+        <item>Altunizade</item>
+        <item>Kandilli</item>
+        <item>Çengelköy</item>
+        <item>Beylerbeyi</item>
+        <item>Kuzguncuk</item>
+        <item>Valide-i Atik</item>
+        <item>İcadiye</item>
+        <item>Kısıklı</item>
+        <item>Salacak</item>
+        <item>Barbaros</item>
+
+        <item>Yalı</item>
+        <item>Atakent</item>
+        <item>Bostanlı</item>
+        <item>Bahçelievler</item>
+        <item>Alaybey</item>
+        <item>İnönü</item>
+        <item>Mavişehir</item>
+        <item>Demirköprü</item>
+        <item>Nergiz</item>
+        <item>Fikri Altay</item>
+
+        <item>Altındağ</item>
+        <item>Evka 4</item>
+        <item>Erzene</item>
+        <item>Kazımdirik</item>
+        <item>Çamdibi</item>
+        <item>Mevlana</item>
+        <item>Atatürk</item>
+        <item>Doğanlar</item>
+        <item>Merkez</item>
+        <item>Çiçekli</item>
+    </string-array>
+</resources>
